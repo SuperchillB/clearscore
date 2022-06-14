@@ -1,13 +1,15 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+
+const isDevelopment = process.env.NODE_ENV !== "production";
 
 module.exports = {
   entry: "./src/index.tsx",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "..", "./dist"),
   },
-  mode: "development",
   devServer: {
     port: "6003", // Specifies port in use
     static: {
@@ -36,7 +38,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "./public/index.html"),
+      template: path.join(__dirname, "..", "./public/index.html"),
     }), // Injects main.js file into the index.html file and places that html file in the dist folder
+    isDevelopment && new ReactRefreshWebpackPlugin(), // Used for HRM for React components
   ],
 };
