@@ -1,11 +1,16 @@
 import React from 'react';
-import Title from './Title.styles';
+import MainLayout from './layouts/MainLayout';
+import AccountPage from './pages/AccountPage';
+import { GlobalStyles } from './styles/styles';
 
 function App() {
   return (
-    <div className="container">
-      <Title>Bud assignment test</Title>
-    </div>
+    <>
+      <GlobalStyles />
+      <MainLayout>
+        <AccountPage />
+      </MainLayout>
+    </>
   );
 }
 

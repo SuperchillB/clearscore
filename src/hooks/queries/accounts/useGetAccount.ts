@@ -1,5 +1,5 @@
 import apiClient from '../../../services/api';
-import { useFetch } from '../../../services/api/reactQuery';
+import { useFetch } from '../reactQuery/useFetch';
 import accountKeys from './accountKeys';
 
 const useGetAccount = (accountId: number) =>
