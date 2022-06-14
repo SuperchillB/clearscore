@@ -44,6 +44,7 @@ specifiers:
   sass-loader: ^13.0.0
   style-loader: ^3.3.1
   styled-components: ^5.3.5
+  styled-normalize: ^8.0.7
   styled-system: ^5.1.5
   ts-node: ^10.8.1
   typescript: ^4.7.3
@@ -58,6 +59,7 @@ dependencies:
   react-dom: 18.1.0_react@18.1.0
   react-query: 3.39.1_ef5jwxihqo6n7gxfmzogljlgcm
   styled-components: 5.3.5_ef5jwxihqo6n7gxfmzogljlgcm
+  styled-normalize: 8.0.7_styled-components@5.3.5
   styled-system: 5.1.5
 
 devDependencies:
@@ -7732,6 +7734,14 @@ packages:
       react-dom: 18.1.0_react@18.1.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
+
+  /styled-normalize/8.0.7_styled-components@5.3.5:
+    resolution: {integrity: sha512-qQV4O7B9g7ZUnStCwGde7Dc/mcFF/pz0Ha/LL7+j/r6uopf6kJCmmR7jCPQMCBrDkYiQ4xvw1hUoceVJkdaMuQ==}
+    peerDependencies:
+      styled-components: ^4.0.0 || ^5.0.0
+    dependencies:
+      styled-components: 5.3.5_ef5jwxihqo6n7gxfmzogljlgcm
+    dev: false
 
   /styled-system/5.1.5:
     resolution: {integrity: sha512-7VoD0o2R3RKzOzPK0jYrVnS8iJdfkKsQJNiLRDjikOpQVqQHns/DXWaPZOH4tIKkhAT7I6wIsy9FWTWh2X3q+A==}
