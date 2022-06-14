@@ -1,2 +1,5 @@
 # bud-assignment
-Take-home assignment for a Frontend Developer position at Bud
+
+---
+
+This is a take-home assignment for a Frontend Developer position at Bud.
