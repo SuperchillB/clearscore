@@ -4,7 +4,7 @@ import Title from './Title.styles';
 function App() {
   return (
     <div className="container">
-      <Title>Bud assignment</Title>
+      <Title>Bud assignment test</Title>
     </div>
   );
 }
