@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from './Title.styles';
 
 function App() {
   return (
     <div className="container">
-      <h1>Bud assignment</h1>
+      <Title>Bud assignment</Title>
     </div>
   );
 }
