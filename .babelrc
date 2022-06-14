@@ -8,5 +8,6 @@
       }
     ],
     "@babel/preset-typescript" // Compiles TypeScript syntax
-  ]
+  ],
+  "plugins": ["babel-plugin-styled-components"]
 }
