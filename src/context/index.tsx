@@ -17,7 +17,7 @@ interface AppProvidersProps {
 
 const queryClient = new QueryClient();
 
-const AppProviders: React.FC<AppProvidersProps> = ({ children }) => (
+const AppProviders = ({ children }: AppProvidersProps) => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider theme={theme}>{children}</ThemeProvider>
   </QueryClientProvider>
