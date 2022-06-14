@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/preset-env", // Compiles ES2015+ syntax
+    [
+      "@babel/preset-react", // Compiles React syntax
+      {
+        "runtime": "automatic"
+      }
+    ],
+    "@babel/preset-typescript" // Compiles TypeScript syntax
+  ]
+}
