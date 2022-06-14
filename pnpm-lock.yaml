@@ -5,6 +5,7 @@ specifiers:
   '@babel/preset-env': ^7.18.2
   '@babel/preset-react': ^7.17.12
   '@babel/preset-typescript': ^7.17.12
+  '@types/node': ^17.0.42
   '@types/react': ^18.0.12
   '@types/react-dom': ^18.0.5
   babel-loader: ^8.2.5
@@ -30,6 +31,7 @@ devDependencies:
   '@babel/preset-env': 7.18.2_@babel+core@7.18.5
   '@babel/preset-react': 7.17.12_@babel+core@7.18.5
   '@babel/preset-typescript': 7.17.12_@babel+core@7.18.5
+  '@types/node': 17.0.42
   '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
   babel-loader: 8.2.5_te6ollfzjcco6mbxjl755ucqke
