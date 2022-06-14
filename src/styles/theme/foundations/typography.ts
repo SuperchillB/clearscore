@@ -1,11 +1,11 @@
 import { FontSizeAlias, ThemeScale } from '../types';
 
 const fontSizes = [
-  '1.2rem',
   '1.4rem',
   '1.6rem',
   '2rem',
   '2.6rem',
+  '3.2rem',
 ] as ThemeScale<string, FontSizeAlias>;
 
 fontSizes.tiny = fontSizes[0];

@@ -3,7 +3,7 @@ import { Heading } from '../Heading';
 import { CardDisplayProps } from './types';
 
 const CardTitle = ({ children }: CardDisplayProps) => (
-  <Heading mb="tiny" variant="h3">
+  <Heading mb="tiny" variant="h4">
     {children}
   </Heading>
 );

@@ -33,7 +33,11 @@ export const Heading = styled.h1.attrs<HeadingProps>(({ variant: size }) => ({
         ...headingStyles,
         fontSize: 'large', // Or 2
       },
-      // Could add more headings (h1, h4, ...)
+      h4: {
+        ...headingStyles,
+        fontSize: 'medium', // Or 2
+      },
+      // Could add more headings (h1, h5, ...)
     },
   }),
   compose(space, color, layout, flexbox, border, position, typography),

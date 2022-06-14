@@ -1,4 +1,5 @@
 import React from 'react';
+import Transactions from '../../components/AccountPage/Transactions';
 import { Box } from '../../components/elements/Box';
 import { Heading } from '../../components/elements/Heading';
 import { Paragraph } from '../../components/elements/Paragraph';
@@ -20,6 +21,7 @@ const AccountPage = () => {
         My account
       </Heading>
       <Paragraph variant="body">This is a paragraph</Paragraph>
+      <Transactions />
     </Box>
   );
 };

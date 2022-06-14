@@ -17,5 +17,5 @@ export type HeadingFunctionsProps = SpaceProps &
   TypographyProps;
 
 export type HeadingProps = {
-  variant: 'h2' | 'h3'; // Could add more headings (h1, h4, ...)
+  variant: 'h2' | 'h3' | 'h4'; // Could add more headings (h1, h5, ...)
 } & HeadingFunctionsProps;
