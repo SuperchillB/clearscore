@@ -6,6 +6,7 @@ import { Heading } from '../../components/elements/Heading';
 import { Paragraph } from '../../components/elements/Paragraph';
 import { TEST_USER_ID } from '../../constants';
 import useGetAccount from '../../hooks/queries/accounts/useGetAccount';
+import { AccountTransaction } from '../../types/accounts';
 
 const AccountPage = () => {
   const {
@@ -13,6 +14,16 @@ const AccountPage = () => {
     isError: isErrorAccount,
     // isLoading: isLoadingAccount,
   } = useGetAccount(TEST_USER_ID);
+
+  const filterTransactions = (transactions: AccountTransaction[]) => {
+    if (!transactions || transactions.length === 0) return [];
+    const smallestExpenses = transactions
+      .slice()
+      .filter((t) => t.amount.value < 0)
+      .sort((a, b) => b.amount.value - a.amount.value)
+      .slice(0, 10);
+    return smallestExpenses;
+  };
 
   // TODO: Use ErrorBoundary for error below
   return (
@@ -27,7 +38,9 @@ const AccountPage = () => {
           Couldn&apos;t fetch your account. Please try again later.
         </Flex>
       ) : (
-        <Transactions transactions={accountData?.transactions || []} />
+        <Transactions
+          transactions={filterTransactions(accountData?.transactions || [])}
+        />
       )}
     </Box>
   );
