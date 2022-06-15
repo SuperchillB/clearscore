@@ -6,9 +6,10 @@ import Tag from '../../elements/Tag';
 const TransactionCard = () => {
   return (
     <Card
-      flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 3)']}
+      flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 4)']}
       width={['auto', 'auto', '50%', 'auto']}
-      maxWidth={['30rem', '30rem', 'none', '30rem']}
+      // maxWidth={['30rem', '30rem', 'none', '30rem']}
+      maxWidth={['30rem', '30rem', 'none', '38rem']}
     >
       <Card.Header>
         <Tag display={['none', 'none', 'inline-block']} variant="secondary">
