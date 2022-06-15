@@ -1,17 +1,23 @@
 import React from 'react';
+import Skeleton from 'react-loading-skeleton';
+import { AccountTransaction } from '../../../types/accounts';
+import Card from '../../elements/Card';
 import { Heading } from '../../elements/Heading';
 import { Paragraph } from '../../elements/Paragraph';
+import Tag from '../../elements/Tag';
 import TransactionCard from '../TransactionCard';
 import {
   TransactionCardsContainer,
   TransactionsContainer,
 } from './Transactions.styles';
 
-const transactions = Array(10).fill({});
+type TransactionsProps = {
+  transactions: AccountTransaction[];
+};
 
-const Transactions = () => {
-  return (
-    <TransactionsContainer>
+const Transactions = ({ transactions }: TransactionsProps) => {
+  const renderHeader = () => (
+    <>
       <Heading fontWeight={1} ml="medium" my="large" variant="h3">
         Transactions
       </Heading>
@@ -22,6 +28,67 @@ const Transactions = () => {
       >
         Below is a list of your 10 smallest expenses.
       </Paragraph>
+    </>
+  );
+
+  // Skeleton UI
+  if (transactions && transactions.length === 0) {
+    return (
+      <TransactionsContainer>
+        {renderHeader()}
+        <TransactionCardsContainer
+          px="medium"
+          pb="large"
+          overflowX={['auto', 'auto', 'visible']}
+          flexGap={['small', 'large']}
+          flexWrap={['nowrap', 'nowrap', 'wrap', 'wrap']}
+          mt={['0.9rem', '0.9rem', 'large', 'large', 'xlarge']}
+        >
+          {Array(10)
+            .fill({})
+            .map((transaction, i) => (
+              <Card
+                flex={[
+                  '0 0 45%',
+                  '0 0 45%',
+                  `0 1 calc(50% - 1rem)`,
+                  '1 calc(100% / 4)',
+                ]}
+                width={['auto', 'auto', '50%', 'auto']}
+                maxWidth={['38rem', '38rem', 'none', '38rem']}
+                key={i}
+              >
+                <Card.Header>
+                  <Tag
+                    display={['none', 'none', 'inline-block']}
+                    variant="secondary"
+                  >
+                    <Skeleton width="10rem" />
+                  </Tag>
+                </Card.Header>
+                <Card.Body>
+                  <Card.Title>
+                    <Skeleton width="13rem" />
+                  </Card.Title>
+                  <Paragraph variant="body">
+                    <Skeleton count={1} />
+                  </Paragraph>
+                </Card.Body>
+                <Card.Footer display={['block', 'block', 'none']}>
+                  <Tag width={[1, 1, 'auto']} variant="secondary">
+                    <Skeleton width="11.3rem" />
+                  </Tag>
+                </Card.Footer>
+              </Card>
+            ))}
+        </TransactionCardsContainer>
+      </TransactionsContainer>
+    );
+  }
+
+  return (
+    <TransactionsContainer>
+      {renderHeader()}
       <TransactionCardsContainer
         px="medium"
         pb="large"
@@ -30,8 +97,8 @@ const Transactions = () => {
         flexWrap={['nowrap', 'nowrap', 'wrap', 'wrap']}
         mt={['0.9rem', '0.9rem', 'large', 'large', 'xlarge']}
       >
-        {transactions.map((transaction, i) => (
-          <TransactionCard key={i} />
+        {transactions?.map((transaction) => (
+          <TransactionCard key={transaction.id} data={transaction} />
         ))}
       </TransactionCardsContainer>
     </TransactionsContainer>

@@ -10,4 +10,5 @@ export type CardContainerProps = BoxProps;
 
 export type CardDisplayProps = {
   children: React.ReactNode;
-} & DisplayProps;
+} & DisplayProps &
+  FlexboxProps;

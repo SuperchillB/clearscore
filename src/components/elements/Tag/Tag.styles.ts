@@ -11,7 +11,7 @@ const TagContainer = styled(Box)(
     variants: {
       secondary: {
         color: 'midnight',
-        bg: 'grayPillBg',
+        bg: 'bluePillBg',
       },
       // Could add more variants here for different types of Tags
     },
