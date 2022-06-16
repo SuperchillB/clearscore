@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders with given props 1`] = `
+<div
+  class="sc-bczRLJ sc-gsnTZi sc-dkzDqf lmcTtE jDemKD fvrKEF"
+  width="auto,auto,50%,auto"
+>
+  <div
+    class="sc-bczRLJ hSnyMT"
+  >
+    Test header
+  </div>
+  <div
+    class="sc-bczRLJ hSnyMT"
+  >
+    <h4
+      class="sc-hKMtZM fVHIEU"
+    >
+      Test title
+    </h4>
+    <p
+      class="sc-eCYdqJ kKjzFp"
+    >
+      Test body
+    </p>
+  </div>
+  <div
+    class="sc-bczRLJ eDNHpP"
+    display="block,block,none"
+  >
+    Test footer
+  </div>
+</div>
+`;
