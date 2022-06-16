@@ -6,16 +6,16 @@ import { Heading } from '../../elements/Heading';
 import { Paragraph } from '../../elements/Paragraph';
 
 type AccountInfoProps = {
-  balance: AccountBalance;
+  balance: AccountBalance | undefined;
   isLoading: boolean;
-  provider: AccountProvider;
+  provider: AccountProvider | undefined;
 };
 
 const AccountInfo = ({ balance, isLoading, provider }: AccountInfoProps) => {
   if (isLoading) {
     return (
       <SkeletonTheme baseColor="#C8C8C8">
-        <Box>
+        <Box data-testid="account-info-skeleton">
           <Heading my="large" variant="h2">
             <Skeleton height="2rem" width="20rem" />
           </Heading>
@@ -31,7 +31,7 @@ const AccountInfo = ({ balance, isLoading, provider }: AccountInfoProps) => {
   }
 
   return (
-    <Box>
+    <Box data-testid="account-info">
       <Heading my="large" variant="h2">
         {provider?.title}
       </Heading>

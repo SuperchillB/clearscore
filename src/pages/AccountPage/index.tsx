@@ -5,7 +5,6 @@ import { Box } from '../../components/elements/Box';
 import { Flex } from '../../components/elements/Flex';
 import { TEST_USER_ID } from '../../constants';
 import useGetAccount from '../../hooks/queries/accounts/useGetAccount';
-import { AccountBalance, AccountProvider } from '../../types/accounts';
 import { filterTransactions } from './utils';
 
 const AccountPage = () => {
@@ -29,9 +28,9 @@ const AccountPage = () => {
   return (
     <Box data-testid="account-page" pl="xlarge">
       <AccountInfo
-        balance={accountData?.balance as AccountBalance}
+        balance={accountData?.balance}
         isLoading={isLoadingAccount}
-        provider={accountData?.provider as AccountProvider}
+        provider={accountData?.provider}
       />
 
       {isErrorAccount ? (
