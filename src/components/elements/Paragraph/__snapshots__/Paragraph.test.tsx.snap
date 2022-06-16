@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph component renders with given props and "body" variant 1`] = `
+<p
+  class="sc-bczRLJ UJHAY"
+/>
+`;
+
+exports[`Paragraph component renders with given props and "subTitle" variant 1`] = `
+<p
+  class="sc-bczRLJ kUyRJZ"
+/>
+`;
