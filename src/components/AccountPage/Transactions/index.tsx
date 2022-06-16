@@ -37,7 +37,7 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
     // if (transactions && transactions.length === 0) {
     return (
       <SkeletonTheme baseColor="#C8C8C8">
-        <TransactionsContainer>
+        <TransactionsContainer data-testid="transactions-skeleton">
           {renderHeader()}
           <TransactionCardsContainer
             px="medium"
@@ -95,6 +95,7 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
     <TransactionsContainer>
       {renderHeader()}
       <TransactionCardsContainer
+        data-testid="transaction-cards-container"
         px="medium"
         pb="large"
         overflowX={['auto', 'auto', 'visible']}

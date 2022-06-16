@@ -3,8 +3,6 @@ import { API_BASE_URL } from '../../../constants';
 import { renderGetAccountHook } from '../../../tests/utils';
 import { server } from '../../../tests/mocks/server';
 import { waitFor } from '@testing-library/react';
-// Need to import "whatwg-fetch" to polyfill the Fetch API since tests are run in node environment (CRA's config usually takes care of that)
-import 'whatwg-fetch';
 
 describe('useGetAccount query custom hook', () => {
   test('useGetAccount successful operation', async () => {
