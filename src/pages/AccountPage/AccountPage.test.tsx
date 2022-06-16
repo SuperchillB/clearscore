@@ -4,12 +4,15 @@ import { renderGetAccountHook, renderWithClient } from '../../tests/utils';
 import { server } from '../../tests/mocks/server';
 import { rest } from 'msw';
 import { API_BASE_URL } from '../../constants';
+import * as accountPageUtils from './utils';
 
 describe('AccountPage component', () => {
   test('renders correctly', () => {
+    const spy = jest.spyOn(accountPageUtils, 'filterTransactions');
     renderWithClient(<AccountPage />);
     const element = screenRTL.getByTestId('account-page');
     expect(element).toBeInTheDocument();
+    expect(spy).toHaveBeenCalled();
   });
 
   test('displays error message when query fails', async () => {
