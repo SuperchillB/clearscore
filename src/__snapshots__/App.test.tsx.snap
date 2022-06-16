@@ -1,0 +1,1204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders expected html 1`] = `
+<div
+  class="sc-bczRLJ flNuJt"
+>
+  <main>
+    <div
+      class="sc-gsnTZi bwrOse"
+      data-testid="account-page"
+    >
+      <h1
+        class="sc-eCYdqJ cVcxgY"
+      >
+        Account details
+      </h1>
+      <div
+        class="sc-gsnTZi sc-dkzDqf sc-hKMtZM gByFxo cajUyw edgFaS"
+        data-testid="account-info-skeleton"
+        width="auto,auto,50%,auto"
+      >
+        <div
+          class="sc-gsnTZi cpOXAF"
+        >
+          <h4
+            class="sc-eCYdqJ bOKPZE"
+          >
+            <span
+              aria-busy="true"
+              aria-live="polite"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="width: 17rem; height: 2rem; --base-color: #C8C8C8;"
+              >
+                ‌
+              </span>
+              <br />
+            </span>
+          </h4>
+        </div>
+        <div
+          class="sc-gsnTZi biEQrb"
+          display="block,block,none,block"
+        >
+          <p
+            class="sc-jSMfEi bGbznQ"
+            font-size="micro"
+            letter-spacing="0.2rem"
+          >
+            <span
+              aria-busy="true"
+              aria-live="polite"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="width: 25rem; height: 2rem; --base-color: #C8C8C8;"
+              >
+                ‌
+              </span>
+              <br />
+            </span>
+          </p>
+          <h4
+            class="sc-eCYdqJ ecOeHV"
+          >
+            <span
+              aria-busy="true"
+              aria-live="polite"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="width: 15rem; height: 2rem; --base-color: #C8C8C8;"
+              >
+                ‌
+              </span>
+              <br />
+            </span>
+          </h4>
+        </div>
+      </div>
+      <section
+        class="sc-iBkjds ctrvQ"
+        data-testid="transactions-skeleton"
+      >
+        <h3
+          class="sc-eCYdqJ hBRNWX"
+        >
+          Transactions
+        </h3>
+        <p
+          class="sc-jSMfEi hwOsEi"
+        >
+          Your 10 smallest expenses
+        </p>
+        <div
+          class="sc-gsnTZi sc-dkzDqf sc-ftvSup kpphPN gCjPdx kzhdzJ"
+        >
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-gsnTZi sc-dkzDqf sc-hKMtZM bVvSoa hKHFig edgFaS"
+            width="auto,auto,50%,auto"
+          >
+            <div
+              class="sc-gsnTZi eqUzya"
+              display="flex"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf bdCPcE coqUsE"
+                display="none,none,inline-block,none"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 10rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+              <p
+                class="sc-jSMfEi kXHUth"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 10rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi cpOXAF"
+            >
+              <h4
+                class="sc-eCYdqJ fnYJV"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="width: 13rem; --base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </h4>
+              <p
+                class="sc-jSMfEi enhcFP"
+              >
+                <span
+                  aria-busy="true"
+                  aria-live="polite"
+                >
+                  <span
+                    class="react-loading-skeleton"
+                    style="--base-color: #C8C8C8;"
+                  >
+                    ‌
+                  </span>
+                  <br />
+                </span>
+              </p>
+            </div>
+            <div
+              class="sc-gsnTZi biEQrb"
+              display="block,block,none,block"
+            >
+              <div
+                class="sc-gsnTZi sc-gKXOVf isxpKF gLUWvV"
+                display="inline-block"
+                width="1,1,auto"
+              >
+                <p
+                  class="sc-jSMfEi fzFjaJ"
+                >
+                  <span
+                    aria-busy="true"
+                    aria-live="polite"
+                  >
+                    <span
+                      class="react-loading-skeleton"
+                      style="width: 11.3rem; --base-color: #C8C8C8;"
+                    >
+                      ‌
+                    </span>
+                    <br />
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+`;

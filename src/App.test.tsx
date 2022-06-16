@@ -9,9 +9,8 @@ describe('App', () => {
     expect(element).toBeInTheDocument();
   });
 
-  // TODO: Uncomment below once ready
-  // test('renders expected html', () => {
-  //   const { container } = render(<App />);
-  //   expect(container.firstChild).toMatchSnapshot();
-  // });
+  test('renders expected html', () => {
+    const { container } = renderWithClient(<App />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
