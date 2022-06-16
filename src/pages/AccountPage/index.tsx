@@ -1,15 +1,12 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import AccountInfo from '../../components/AccountPage/AccountInfo';
 import Transactions from '../../components/AccountPage/Transactions';
 import { Box } from '../../components/elements/Box';
 import { Flex } from '../../components/elements/Flex';
 import { TEST_USER_ID } from '../../constants';
 import useGetAccount from '../../hooks/queries/accounts/useGetAccount';
-import {
-  AccountBalance,
-  AccountProvider,
-  AccountTransaction,
-} from '../../types/accounts';
+import { AccountBalance, AccountProvider } from '../../types/accounts';
+import { filterTransactions } from './utils';
 
 const AccountPage = () => {
   const {
@@ -18,17 +15,17 @@ const AccountPage = () => {
     isLoading: isLoadingAccount,
   } = useGetAccount(TEST_USER_ID);
 
-  const filterTransactions = (transactions: AccountTransaction[]) => {
-    if (!transactions || transactions.length === 0) return [];
-    const smallestExpenses = transactions
-      .slice()
-      .filter((t) => t.amount.value < 0)
-      .sort((a, b) => b.amount.value - a.amount.value)
-      .slice(0, 10);
-    return smallestExpenses;
-  };
+  // Using useMemo here in case we're dealing with a lot of transactions.
+  // Ideally, we would have a query parameter on the endpoint url ("?filter=10")
+  // that allows the server-side to filter the results before returning them.
+  // This filter would be registered as a dependency in our react-query hook, that
+  // way we can link it to our UI, thus allowing the user to change the desired
+  // number of filtered results
+  const filteredTransactions = useMemo(
+    () => filterTransactions(accountData?.transactions || []),
+    [accountData?.transactions],
+  );
 
-  // TODO: Use ErrorBoundary for error below
   return (
     <Box pl="xlarge">
       <AccountInfo
@@ -44,7 +41,7 @@ const AccountPage = () => {
       ) : (
         <Transactions
           isLoading={isLoadingAccount}
-          transactions={filterTransactions(accountData?.transactions || [])}
+          transactions={filteredTransactions}
         />
       )}
     </Box>
