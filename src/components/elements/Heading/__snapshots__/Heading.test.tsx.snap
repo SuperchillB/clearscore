@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading component renders with given props 1`] = `
+<h3
+  class="sc-bczRLJ hpWPQC"
+  color="midnight"
+  width="1"
+/>
+`;
+
+exports[`Heading component renders with given props and "h3" variant 1`] = `
+<h3
+  class="sc-bczRLJ bAcZEu"
+/>
+`;
+
+exports[`Heading component renders with given props and "h4" variant 1`] = `
+<h4
+  class="sc-bczRLJ gzwZGm"
+/>
+`;
