@@ -14,10 +14,10 @@ const TransactionCard = ({ data }: TransactionCardProps) => {
 
   return (
     <Card
-      flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 4)']}
+      flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 5)']}
       width={['auto', 'auto', '50%', 'auto']}
       // maxWidth={['30rem', '30rem', 'none', '30rem']}
-      maxWidth={['30rem', '30rem', 'none', '38rem']}
+      maxWidth={['30rem', '30rem', 'none', '27rem']}
     >
       <Card.Header
         alignContent="center"
@@ -32,7 +32,9 @@ const TransactionCard = ({ data }: TransactionCardProps) => {
         </Paragraph>
       </Card.Header>
       <Card.Body>
-        <Card.Title>{`${amount.value} (${amount.currency_iso})`}</Card.Title>
+        <Card.Title>
+          {amount.value} {amount.currency_iso}
+        </Card.Title>
         <Paragraph variant="body">{description}</Paragraph>
       </Card.Body>
       <Card.Footer display={['block', 'block', 'none']}>
