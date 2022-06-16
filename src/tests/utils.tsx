@@ -22,7 +22,7 @@ const getNewQueryClient = () =>
   new QueryClient({
     defaultOptions: {
       queries: {
-        retry: false,
+        retry: false, // turns off retries for testing
       },
     },
   });
@@ -91,6 +91,7 @@ export const createWrapper = () => {
 
 /**
  * Wraps useGetAccount custom hook inside a React Query provider
+ * Helps us avoid recreating the hook each time we need it
  * @returns {Object}  Result of the query and waitFor method to await something
  */
 export const renderGetAccountHook = () => {
