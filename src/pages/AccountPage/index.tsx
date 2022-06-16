@@ -27,7 +27,7 @@ const AccountPage = () => {
   );
 
   return (
-    <Box pl="xlarge">
+    <Box data-testid="account-page" pl="xlarge">
       <AccountInfo
         balance={accountData?.balance as AccountBalance}
         isLoading={isLoadingAccount}
