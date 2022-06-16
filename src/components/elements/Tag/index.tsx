@@ -1,4 +1,3 @@
-import React from 'react';
 import { Paragraph } from '../Paragraph';
 import { TagProps } from './types';
 import TagContainer from './Tag.styles';

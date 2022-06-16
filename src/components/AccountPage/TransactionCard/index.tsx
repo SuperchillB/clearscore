@@ -1,4 +1,3 @@
-import React from 'react';
 import { AccountTransaction } from '../../../types/accounts';
 import { formatStringDateToEuroDate } from '../../../utils/date';
 import Card from '../../elements/Card';

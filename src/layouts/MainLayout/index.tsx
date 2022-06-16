@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from './MainLayout.styles';
 import { MainLayoutProps } from './types';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { screen as screenRTL } from '@testing-library/react';
 import App from './App';
 import { renderWithClient } from './tests/utils';
