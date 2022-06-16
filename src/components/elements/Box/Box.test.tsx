@@ -5,8 +5,8 @@ describe('Box component', () => {
   test('renders with given props', () => {
     const { container } = render(
       <Box
-        backgroundColor="gallery"
-        color="midnight"
+        backgroundColor="budLightBlue"
+        color="primary"
         mb={['medium', 'large', 'xlarge']}
         px="small"
       />,

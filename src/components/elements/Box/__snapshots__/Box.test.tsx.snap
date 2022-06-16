@@ -2,7 +2,7 @@
 
 exports[`Box component renders with given props 1`] = `
 <div
-  class="sc-bczRLJ gNKbKD"
-  color="midnight"
+  class="sc-bczRLJ DCFk"
+  color="primary"
 />
 `;
