@@ -5,7 +5,7 @@ export const colors = {
   budLightGrey: '#FAFAFA',
   budLightBlue: '#F6F8FC',
   budBlue: '#FAFAFA',
-  // loadingGrey: '#C8C8C8',
+  loadingGrey: '#C8C8C8',
   grayPillBg: '#EEEFF1',
   bluePillBg: '#DFE7F8',
   white: '#FFFFFF',

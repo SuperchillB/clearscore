@@ -34,7 +34,6 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
 
   // Skeleton UI
   if (isLoading) {
-    // if (transactions && transactions.length === 0) {
     return (
       <SkeletonTheme baseColor="#C8C8C8">
         <TransactionsContainer data-testid="transactions-skeleton">
@@ -58,17 +57,23 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
                     '1 calc(100% / 5)',
                   ]}
                   width={['auto', 'auto', '50%', 'auto']}
-                  // maxWidth={['30rem', '30rem', 'none', '30rem']}
                   maxWidth={['30rem', '30rem', 'none', '23.5rem']}
                   key={i}
                 >
-                  <Card.Header>
+                  <Card.Header
+                    alignContent="center"
+                    display="flex"
+                    justifyContent="space-between"
+                  >
                     <Tag
-                      display={['none', 'none', 'inline-block']}
+                      display={['none', 'none', 'inline-block', 'none']}
                       variant="secondary"
                     >
                       <Skeleton width="10rem" />
                     </Tag>
+                    <Paragraph alignSelf="center" variant="body">
+                      <Skeleton width="10rem" />
+                    </Paragraph>
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
@@ -78,8 +83,8 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
                       <Skeleton count={1} />
                     </Paragraph>
                   </Card.Body>
-                  <Card.Footer display={['block', 'block', 'none']}>
-                    <Tag width={[1, 1, 'auto']} variant="secondary">
+                  <Card.Footer display={['block', 'block', 'none', 'block']}>
+                    <Tag width={[1, 1, 'auto']} variant="loading">
                       <Skeleton width="11.3rem" />
                     </Tag>
                   </Card.Footer>
