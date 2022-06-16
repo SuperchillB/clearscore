@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flex component renders with given props 1`] = `
+<div
+  class="sc-bczRLJ sc-gsnTZi glWiGj DIDs"
+  color="primary"
+  width="1"
+/>
+`;

@@ -35,8 +35,8 @@ describe('Heading component', () => {
     const { container } = render(
       <Heading
         alignItems={['center', 'stretch']}
-        backgroundColor="gallery"
-        color="midnight"
+        backgroundColor="budLightBlue"
+        color="primary"
         flexDirection="column"
         justifyContent="center"
         mb={['medium', 'large', 'xlarge']}
