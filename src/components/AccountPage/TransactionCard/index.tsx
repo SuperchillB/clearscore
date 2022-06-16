@@ -17,14 +17,17 @@ const TransactionCard = ({ data }: TransactionCardProps) => {
       flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 5)']}
       width={['auto', 'auto', '50%', 'auto']}
       // maxWidth={['30rem', '30rem', 'none', '30rem']}
-      maxWidth={['30rem', '30rem', 'none', '27rem']}
+      maxWidth={['30rem', '30rem', 'none', '23.5rem']}
     >
       <Card.Header
         alignContent="center"
         display="flex"
         justifyContent="space-between"
       >
-        <Tag display={['none', 'none', 'inline-block']} variant="secondary">
+        <Tag
+          display={['none', 'none', 'inline-block', 'none']}
+          variant="secondary"
+        >
           {categoryTitle}
         </Tag>
         <Paragraph alignSelf="center" variant="body">
@@ -37,7 +40,7 @@ const TransactionCard = ({ data }: TransactionCardProps) => {
         </Card.Title>
         <Paragraph variant="body">{description}</Paragraph>
       </Card.Body>
-      <Card.Footer display={['block', 'block', 'none']}>
+      <Card.Footer display={['block', 'block', 'none', 'block']}>
         <Tag width={[1, 1, 'auto']} variant="secondary">
           {categoryTitle}
         </Tag>

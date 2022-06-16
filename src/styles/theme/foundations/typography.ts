@@ -1,18 +1,22 @@
 import { FontSizeAlias, ThemeScale } from '../types';
 
 const fontSizes = [
+  '1.2rem',
   '1.4rem',
   '1.6rem',
   '2rem',
-  '2.6rem',
+  '2.8rem',
   '3.2rem',
+  '5.2rem',
 ] as ThemeScale<string, FontSizeAlias>;
 
-fontSizes.tiny = fontSizes[0];
-fontSizes.small = fontSizes[1];
-fontSizes.medium = fontSizes[2];
-fontSizes.large = fontSizes[3];
-fontSizes.xlarge = fontSizes[4];
+fontSizes.micro = fontSizes[0];
+fontSizes.tiny = fontSizes[1];
+fontSizes.small = fontSizes[2];
+fontSizes.medium = fontSizes[3];
+fontSizes.large = fontSizes[4];
+fontSizes.xlarge = fontSizes[5];
+fontSizes.xxlarge = fontSizes[6];
 
 const fontWeights = {
   normal: 'normal',
@@ -21,7 +25,7 @@ const fontWeights = {
 
 const fonts = {
   primary:
-    "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+    "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
 };
 
 export { fonts, fontSizes, fontWeights };

@@ -23,11 +23,11 @@ export const Paragraph = styled.p<ParagraphProps>(
     variants: {
       body: {
         ...paragraphStyles,
-        fontSize: 'small', // or 2
+        fontSize: 'small',
       },
       subTitle: {
         ...paragraphStyles,
-        fontSize: 'tiny', // or 1
+        fontSize: 'tiny',
       },
     },
   }),

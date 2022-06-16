@@ -17,7 +17,7 @@ export const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
     /* font-family: ${(props) => props.theme.fonts.primary}; */
     font-family: ${({ theme }) => theme.fonts.primary};
     font-size: 1.6rem;
-    background: ${({ theme }) => theme.colors.info};
+    background: ${({ theme }) => theme.colors.background};
     color: ${(props) => props.theme.colors.primary}; // ! CHANGE LATER
     cursor: default;
   }

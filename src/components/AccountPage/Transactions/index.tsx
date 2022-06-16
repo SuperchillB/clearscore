@@ -59,7 +59,7 @@ const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
                   ]}
                   width={['auto', 'auto', '50%', 'auto']}
                   // maxWidth={['30rem', '30rem', 'none', '30rem']}
-                  maxWidth={['30rem', '30rem', 'none', '27rem']}
+                  maxWidth={['30rem', '30rem', 'none', '23.5rem']}
                   key={i}
                 >
                   <Card.Header>

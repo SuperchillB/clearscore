@@ -13,5 +13,18 @@ export type ThemeScale<Type, Aliases extends string> = Array<Type> &
   Record<Aliases, Type>;
 export type RadiiAlias = 'pill' | 'card';
 export type BreakpointAlias = 'sm' | 'md' | 'lg' | 'xl';
-export type FontSizeAlias = 'tiny' | 'small' | 'medium' | 'large' | 'xlarge';
-export type SpaceAlias = 'tiny' | 'small' | 'medium' | 'large' | 'xlarge';
+export type FontSizeAlias =
+  | 'micro'
+  | 'tiny'
+  | 'small'
+  | 'medium'
+  | 'large'
+  | 'xlarge'
+  | 'xxlarge';
+export type SpaceAlias =
+  | 'tiny'
+  | 'small'
+  | 'medium'
+  | 'large'
+  | 'xlarge'
+  | 'xxlarge';
