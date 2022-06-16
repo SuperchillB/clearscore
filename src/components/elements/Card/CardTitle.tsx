@@ -2,8 +2,8 @@ import React from 'react';
 import { Heading } from '../Heading';
 import { CardDisplayProps } from './types';
 
-const CardTitle = ({ children }: CardDisplayProps) => (
-  <Heading mb="tiny" variant="h4">
+const CardTitle = ({ children, ...props }: CardDisplayProps) => (
+  <Heading mb="tiny" variant="h4" {...props}>
     {children}
   </Heading>
 );

@@ -2,8 +2,8 @@
 
 exports[`Heading component renders with given props 1`] = `
 <h3
-  class="sc-bczRLJ hpWPQC"
-  color="midnight"
+  class="sc-bczRLJ jA-dmtd"
+  color="primary"
   width="1"
 />
 `;

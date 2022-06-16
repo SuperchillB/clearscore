@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { layout } from 'styled-system';
-// import spaces from '../../../styles/theme/foundations/space';
+import spaces from '../../../styles/theme/foundations/space';
 import { Flex } from '../../elements/Flex';
 
 export const TransactionsContainer = styled.section({
+  paddingTop: spaces.xxlarge,
   // paddingLeft: spaces.large,
   // paddingRight: spaces.large,
 });

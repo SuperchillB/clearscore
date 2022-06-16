@@ -3,6 +3,7 @@ import AccountInfo from '../../components/AccountPage/AccountInfo';
 import Transactions from '../../components/AccountPage/Transactions';
 import { Box } from '../../components/elements/Box';
 import { Flex } from '../../components/elements/Flex';
+import { Heading } from '../../components/elements/Heading';
 import { TEST_USER_ID } from '../../constants';
 import useGetAccount from '../../hooks/queries/accounts/useGetAccount';
 import { filterTransactions } from './utils';
@@ -27,21 +28,32 @@ const AccountPage = () => {
 
   return (
     <Box data-testid="account-page" pl="xlarge">
-      <AccountInfo
-        balance={accountData?.balance}
-        isLoading={isLoadingAccount}
-        provider={accountData?.provider}
-      />
+      <Heading
+        borderBottom="0.1rem solid"
+        borderBottomColor="primary"
+        my="xlarge"
+        pb="xxlarge"
+        variant="h1"
+      >
+        Account details
+      </Heading>
 
       {isErrorAccount ? (
         <Flex justifyContent="center" mt="5rem" width={1}>
           Couldn&apos;t fetch your account. Please try again later.
         </Flex>
       ) : (
-        <Transactions
-          isLoading={isLoadingAccount}
-          transactions={filteredTransactions}
-        />
+        <>
+          <AccountInfo
+            balance={accountData?.balance}
+            isLoading={isLoadingAccount}
+            provider={accountData?.provider}
+          />
+          <Transactions
+            isLoading={isLoadingAccount}
+            transactions={filteredTransactions}
+          />
+        </>
       )}
     </Box>
   );

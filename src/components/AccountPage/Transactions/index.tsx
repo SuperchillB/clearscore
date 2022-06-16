@@ -19,15 +19,16 @@ type TransactionsProps = {
 const Transactions = ({ isLoading, transactions }: TransactionsProps) => {
   const renderHeader = () => (
     <>
-      <Heading fontWeight={1} ml="medium" my="large" variant="h3">
+      <Heading ml="medium" my="large" textAlign="center" variant="h3">
         Transactions
       </Heading>
       <Paragraph
         ml="medium"
         mt={['small', 'small', 'medium', 'large']}
+        textAlign="center"
         variant="body"
       >
-        Below is a list of your 10 smallest expenses.
+        Your 10 smallest expenses
       </Paragraph>
     </>
   );
