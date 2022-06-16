@@ -6,7 +6,6 @@ const useGetAccount = (accountId: number) =>
   useFetch({
     key: accountKeys.detail(accountId),
     queryFn: apiClient.accounts.getAccount,
-    // params: ,
     config: {
       refetchOnMount: true,
       keepPreviousData: true,

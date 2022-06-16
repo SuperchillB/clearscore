@@ -1,6 +1,5 @@
 export const colors = {
   primary: '#262626',
-  // background: '#F7F7F8',
   background: '#F4F4F4',
   budLightGrey: '#FAFAFA',
   budLightBlue: '#F6F8FC',

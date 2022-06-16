@@ -1,10 +1,10 @@
 // const webpack = require("webpack");
 const BundleAnalyzerPlugin =
-  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+  require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-  mode: "production", // Sets process.env.node_env to production
-  devtool: "source-map", // Devtool recommended by CRA for prod environments (controls generation of source maps)
+  mode: 'production', // Sets process.env.node_env to production
+  devtool: 'source-map', // Devtool recommended by CRA for prod environments (controls generation of source maps)
   devServer: {
     open: true, // Automatically opens browser bundling files
   },

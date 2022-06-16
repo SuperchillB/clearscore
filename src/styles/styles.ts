@@ -14,18 +14,17 @@ export const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
     scroll-behavior: smooth;
   }
   body {
-    /* font-family: ${(props) => props.theme.fonts.primary}; */
     font-family: ${({ theme }) => theme.fonts.primary};
     font-size: 1.6rem;
     background: ${({ theme }) => theme.colors.background};
-    color: ${(props) => props.theme.colors.primary}; // ! CHANGE LATER
+    color: ${(props) => props.theme.colors.primary};
     cursor: default;
   }
   main {
     height: 100%;
   }
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${(props) => props.theme.fonts.title}; // ! CHANGE LATER
+    font-family: ${(props) => props.theme.fonts.title};
     line-height: 2rem;
   }
   p {

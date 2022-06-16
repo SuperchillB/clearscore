@@ -17,7 +17,6 @@ const headingStyles = {
   mb: '0rem',
   color: 'midnight',
   fontWeight: 'bold',
-  // fontFamily: 'heading',
 };
 
 export const Heading = styled.h1.attrs<HeadingProps>(({ variant: size }) => ({

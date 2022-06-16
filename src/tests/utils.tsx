@@ -58,7 +58,6 @@ export const renderWithProviders = ({
 export const renderWithClient = (component: React.ReactElement) => {
   const queryClient = getNewQueryClient();
   const { rerender, ...result } = render(
-    // <QueryClientProvider client={queryClient}>{component}</QueryClientProvider>,
     renderWithProviders({ component, queryClient, appTheme: theme }),
   );
   return {
@@ -70,9 +69,6 @@ export const renderWithClient = (component: React.ReactElement) => {
           queryClient,
           appTheme: theme,
         }),
-        // <QueryClientProvider client={queryClient}>
-        //   {rerenderComponent}
-        // </QueryClientProvider>,
       ),
   };
 };

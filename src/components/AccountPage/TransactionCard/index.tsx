@@ -16,7 +16,6 @@ const TransactionCard = ({ data }: TransactionCardProps) => {
       data-testid="transaction-card"
       flex={['0 0 45%', '0 0 45%', `0 1 calc(50% - 1rem)`, '1 calc(100% / 5)']}
       width={['auto', 'auto', '50%', 'auto']}
-      // maxWidth={['30rem', '30rem', 'none', '30rem']}
       maxWidth={['30rem', '30rem', 'none', '23.5rem']}
     >
       <Card.Header

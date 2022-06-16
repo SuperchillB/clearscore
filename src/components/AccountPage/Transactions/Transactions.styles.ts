@@ -5,8 +5,6 @@ import { Flex } from '../../elements/Flex';
 
 export const TransactionsContainer = styled.section({
   paddingTop: spaces.xxlarge,
-  // paddingLeft: spaces.large,
-  // paddingRight: spaces.large,
 });
 
 export const TransactionCardsContainer = styled(Flex)(layout);

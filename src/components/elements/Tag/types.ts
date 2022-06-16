@@ -6,6 +6,3 @@ export type TagProps = {
 } & SpaceProps &
   WidthProps &
   DisplayProps;
-// } & TagFunctionsProps;
-
-// export type TagFunctionsProps = TextProps & FlexProps;
