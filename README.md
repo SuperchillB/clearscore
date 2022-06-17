@@ -24,6 +24,10 @@ _Quick note: This project uses `pnpm` as the dependency package management tool.
 
 In the project directory, you can run:
 
+### `pnpm install`
+
+Installs all the dependencies necessary to run the app locally.
+
 ### `pnpm start`
 
 Runs the app in the development mode.\
