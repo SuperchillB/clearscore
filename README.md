@@ -66,6 +66,7 @@ The build is minified and the filenames include the hashes.
 
 ## Comments
 
-- This app was built with basic scalability in mind and with a small design system built from scratch using `styled-system`
+- This app was built with basic scalability in mind, and with a small design system built from scratch using `styled-system`
+- Responsiveness was also taken into account (feel free to test it on your browser)
 - `react-query` was used for performance-related reasons (external data state management + caching management), even though the app itself is very basic
 - Additional comments (with more details) can be found in the code
