@@ -1,10 +1,10 @@
-# bud-assignment
+# ClearScore assignment
 
 ---
 
 ## Project context
 
-This is a take-home assignment for a Frontend Developer position at Bud.
+This is a take-home assignment for a Frontend Developer position at ClearScore.
 The project consisted in creating a small app that filters through a list of transactions fetched from a provided API endpoint, and to show only the 10 smallest expenses.
 
 Constraints summary:
