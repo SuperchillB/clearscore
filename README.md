@@ -1,4 +1,4 @@
-# ClearScore assignment
+# ClearScore
 
 ---
 
